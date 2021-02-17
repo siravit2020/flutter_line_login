@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987434601659",
+    "project_id": "linelogin-77938",
+    "storage_bucket": "linelogin-77938.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987434601659:android:26905576d9371df1fd6d9e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_line_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987434601659-qqck6pm8n8312p1a2tol9nn3q5p47dqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQg6Kf0-FBBljLcZyKEeSEUlnU3I4g0Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987434601659-qqck6pm8n8312p1a2tol9nn3q5p47dqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
