@@ -26,8 +26,7 @@ class _LineWithFirebase extends State<LineWithFirebase> {
   FirebaseAuth auth = FirebaseAuth.instance;
 
   void getHttp(Map<String, dynamic> decodedToken, String access) async {
-    var url =
-        'https://asia-northeast1-linelogin-77938.cloudfunctions.net/createCustomToken';
+    var url = Uri.parse('https://asia-northeast1-linelogin-77938.cloudfunctions.net/createCustomToken');
     var response = await http.post(url, body: {
       'access_token': access,
       'email': decodedToken['email'],

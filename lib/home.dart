@@ -30,7 +30,11 @@ class HomePage extends StatelessWidget {
                     children: [
                       Expanded(
                           flex: 1,
-                          child: SvgPicture.asset('assets/icons/line.svg')),
+                          child: SvgPicture.asset(
+                            'assets/icons/line.svg',
+                            width: 40,
+                            height: 40,
+                          )),
                       Expanded(
                         flex: 2,
                         child: Text("Login Line"),
@@ -47,10 +51,10 @@ class HomePage extends StatelessWidget {
                 color: Colors.white,
                 textColor: Colors.black,
                 onPressed: () {
-                   Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => LineWithFirebase()),
-                    );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LineWithFirebase()),
+                  );
                 },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -59,8 +63,16 @@ class HomePage extends StatelessWidget {
                       flex: 1,
                       child: Row(
                         children: [
-                          SvgPicture.asset('assets/icons/line.svg'),
-                          SvgPicture.asset('assets/icons/firebase.svg'),
+                          SvgPicture.asset(
+                            'assets/icons/line.svg',
+                            width: 40,
+                            height: 40,
+                          ),
+                          SvgPicture.asset(
+                            'assets/icons/firebase.svg',
+                            width: 40,
+                            height: 40,
+                          ),
                         ],
                       ),
                     ),
